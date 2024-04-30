@@ -1,0 +1,121 @@
+body{
+
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 60%;
+
+} 
+
+
+nav {
+    border: 3px solid #333333;
+    border-radius: 25px;
+    background-color: #333333;
+    margin-bottom: 40px;
+
+}
+nav ul {
+    list-style: none;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-inline-start: 0rem;
+}
+
+nav li {
+    display: inline-block;
+    padding-left: 10px;
+
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    text-indent: 10px;
+}
+
+li a:active {
+    text-decoration: underline;
+}
+
+li a:hover {
+    padding: 10px;
+    border-radius: 2px;
+    background-color: rgb(148, 139, 139);
+    text-decoration: none;
+    text-indent: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+
+.section1{
+    
+    border-radius: 25px;
+    background-image: url(./img/Senbosa.jpg);
+    background-size: cover;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+section {
+    display: flex;
+    gap: 2rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+article {
+    flex: 1;    
+    border-radius: 1rem;
+}
+
+article img{
+    width: 100%;
+}
+
+
+.article1 {
+    background-color: #fbdabb79;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+    padding-bottom: 1rem;
+}
+
+
+footer {
+    display: flex;
+    margin-top: 3rem;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer div > img {
+    margin-left: 20px;
+    width: 10%;
+}
